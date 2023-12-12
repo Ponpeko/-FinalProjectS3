@@ -83,9 +83,10 @@
             // 
             this.cmbKapasitas.FormattingEnabled = true;
             this.cmbKapasitas.Items.AddRange(new object[] {
-            "20",
             "30",
-            "40"});
+            "40",
+            "50",
+            "60"});
             this.cmbKapasitas.Location = new System.Drawing.Point(108, 141);
             this.cmbKapasitas.Name = "cmbKapasitas";
             this.cmbKapasitas.Size = new System.Drawing.Size(54, 21);

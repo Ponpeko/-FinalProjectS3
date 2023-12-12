@@ -1,5 +1,6 @@
 ﻿using BusTicketAppV0._2.Controller;
 using BusTicketAppV0._2.Model.Entity;
+using BusTicketAppV0._2.Model.Repository;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,14 +15,18 @@ namespace BusTicketAppV0._2.View
 {
     public partial class InfoTiket : Form
     {
-        private List<Bus> listOfBus = new List<Bus>();
-        private ControllerBus controllerBus;
-
-        private List<Rute> listOfRute = new List<Rute>();
-        private ControllerRute controllerRute;
 
         private List<Penumpang> listOfPenumpang = new List<Penumpang>();
+        private List<Rute> listOfRute = new List<Rute>();
+        private List<Bus> listOfBus = new List<Bus>();
+        private List<Tiket> listOfTiket = new List<Tiket>();
+
+        private ControllerBus controllerBus;
+        private ControllerRute controllerRute;
         private ControllerPenumpang controllerPenumpang;
+        private ControllerTiket controllerTiket;
+
+        private Tiket tiket;
 
         public InfoTiket()
         {
@@ -30,6 +35,7 @@ namespace BusTicketAppV0._2.View
             controllerBus = new ControllerBus();
             controllerRute = new ControllerRute();
             controllerPenumpang = new ControllerPenumpang();
+            controllerTiket = new ControllerTiket();
 
             InisialisasiListViewBus();
             LoadDataBus();
@@ -142,6 +148,31 @@ namespace BusTicketAppV0._2.View
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCetak_Click(object sender, EventArgs e)
+        {
+            int noTiket = 1;
+
+            Tiket tiket = new Tiket();
+            tiket.Harga = txtHargaTiket.Text;
+            tiket.Jumlah_Beli = txtJumlahBeli.Text;
+            tiket.Metode_Pembayaran = cmbPembayaran.Text;
+            controllerTiket.CreateTiket(tiket);
+
+            string idRute = txtIdRute.Text;
+            string idBus = txtIdBus.Text;
+            string idPenumpang = txtIdPenumpang.Text;
+            string idTiket = noTiket.ToString();
+
+            MyTicket myTicket = new MyTicket(idRute, idBus, idPenumpang, idTiket);
+            myTicket.Show();
+            noTiket++;
         }
     }
 }

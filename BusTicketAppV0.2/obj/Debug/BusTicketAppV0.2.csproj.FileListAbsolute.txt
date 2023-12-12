@@ -20,3 +20,4 @@ C:\Visual Studio\C# 2\BusTicketAppV0.2\BusTicketAppV0.2\obj\Debug\BusTicketAppV0
 C:\Visual Studio\C# 2\BusTicketAppV0.2\BusTicketAppV0.2\obj\Debug\BusTicketAppV0._2.View.InfoPenumpang.resources
 C:\Visual Studio\C# 2\BusTicketAppV0.2\BusTicketAppV0.2\obj\Debug\BusTicketAppV0._2.View.EntryPenumpang.resources
 C:\Visual Studio\C# 2\BusTicketAppV0.2\BusTicketAppV0.2\obj\Debug\BusTicketAppV0._2.View.InfoTiket.resources
+C:\Visual Studio\C# 2\BusTicketAppV0.2\BusTicketAppV0.2\obj\Debug\BusTicketAppV0._2.View.MyTicket.resources

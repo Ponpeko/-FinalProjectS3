@@ -10,6 +10,7 @@ namespace BusTicketAppV0._2.Model.Entity
     {
         public string IdTiket { get; set; }
         public string Harga { get; set; }
-        public string Waktu_Keberangkatan { get; set; }
+        public string Jumlah_Beli { get; set; }
+        public string Metode_Pembayaran { get; set; }
     }
 }

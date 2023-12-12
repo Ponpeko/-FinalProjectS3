@@ -57,7 +57,6 @@
     <Compile Include="Controller\ControllerTiket.cs" />
     <Compile Include="Model\Context\DbContext.cs" />
     <Compile Include="Model\Entity\Bus.cs" />
-    <Compile Include="Model\Entity\Pembayaran.cs" />
     <Compile Include="Model\Entity\Penumpang.cs" />
     <Compile Include="Model\Entity\Rute.cs" />
     <Compile Include="Model\Entity\Tiket.cs" />
@@ -90,6 +89,12 @@
     </Compile>
     <Compile Include="View\InfoTiket.Designer.cs">
       <DependentUpon>InfoTiket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MyTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MyTicket.Designer.cs">
+      <DependentUpon>MyTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Penumpang\EntryPenumpang.cs">
       <SubType>Form</SubType>
@@ -141,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\InfoTiket.resx">
       <DependentUpon>InfoTiket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MyTicket.resx">
+      <DependentUpon>MyTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Penumpang\EntryPenumpang.resx">
       <DependentUpon>EntryPenumpang.cs</DependentUpon>

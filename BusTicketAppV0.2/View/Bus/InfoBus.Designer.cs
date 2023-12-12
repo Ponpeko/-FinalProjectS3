@@ -43,13 +43,13 @@
             this.lvwBus.HideSelection = false;
             this.lvwBus.Location = new System.Drawing.Point(23, 60);
             this.lvwBus.Name = "lvwBus";
-            this.lvwBus.Size = new System.Drawing.Size(345, 151);
+            this.lvwBus.Size = new System.Drawing.Size(365, 151);
             this.lvwBus.TabIndex = 0;
             this.lvwBus.UseCompatibleStateImageBehavior = false;
             // 
             // btnHapusBus
             // 
-            this.btnHapusBus.Location = new System.Drawing.Point(298, 230);
+            this.btnHapusBus.Location = new System.Drawing.Point(318, 230);
             this.btnHapusBus.Name = "btnHapusBus";
             this.btnHapusBus.Size = new System.Drawing.Size(70, 27);
             this.btnHapusBus.TabIndex = 3;
@@ -59,7 +59,7 @@
             // 
             // btnUpdateBus
             // 
-            this.btnUpdateBus.Location = new System.Drawing.Point(213, 230);
+            this.btnUpdateBus.Location = new System.Drawing.Point(233, 230);
             this.btnUpdateBus.Name = "btnUpdateBus";
             this.btnUpdateBus.Size = new System.Drawing.Size(79, 27);
             this.btnUpdateBus.TabIndex = 4;
@@ -69,7 +69,7 @@
             // 
             // btnTambahBus
             // 
-            this.btnTambahBus.Location = new System.Drawing.Point(129, 230);
+            this.btnTambahBus.Location = new System.Drawing.Point(149, 230);
             this.btnTambahBus.Name = "btnTambahBus";
             this.btnTambahBus.Size = new System.Drawing.Size(78, 27);
             this.btnTambahBus.TabIndex = 5;
@@ -89,7 +89,7 @@
             // 
             // btnCariBus
             // 
-            this.btnCariBus.Location = new System.Drawing.Point(307, 29);
+            this.btnCariBus.Location = new System.Drawing.Point(327, 29);
             this.btnCariBus.Name = "btnCariBus";
             this.btnCariBus.Size = new System.Drawing.Size(61, 23);
             this.btnCariBus.TabIndex = 7;
@@ -110,7 +110,7 @@
             // 
             this.txtCariBus.Location = new System.Drawing.Point(103, 31);
             this.txtCariBus.Name = "txtCariBus";
-            this.txtCariBus.Size = new System.Drawing.Size(198, 20);
+            this.txtCariBus.Size = new System.Drawing.Size(218, 20);
             this.txtCariBus.TabIndex = 9;
             // 
             // InfoBus
@@ -118,7 +118,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(394, 284);
+            this.ClientSize = new System.Drawing.Size(412, 284);
             this.Controls.Add(this.txtCariBus);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCariBus);

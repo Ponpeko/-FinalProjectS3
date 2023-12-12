@@ -18,7 +18,6 @@ namespace BusTicketAppV0._2.View
         private List<Bus> listOfBus = new List<Bus>();
         private ControllerBus controller;
 
-
         public InfoBus()
         {
             InitializeComponent();
